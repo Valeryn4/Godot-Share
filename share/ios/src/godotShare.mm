@@ -3,6 +3,7 @@
 
 #import "app_delegate.h"
 
+GodotShare* GodotShare::instance = NULL;
 
 GodotShare::GodotShare() {
     ERR_FAIL_COND(instance != NULL);
