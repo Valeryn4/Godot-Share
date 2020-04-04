@@ -15,7 +15,7 @@ class GodotShare : public Reference {
 protected:
     static void _bind_methods();
     
-    static GodotShare* instance = NULL;
+    static GodotShare* instance;
     
 public:
 
